@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS people (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    first_name VARCHAR NOT NULL,
+    country VARCHAR NOT NULL
+)

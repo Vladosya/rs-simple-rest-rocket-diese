@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS books (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR NOT NULL,
+    author VARCHAR NOT NULL,
+    published BOOLEAN NOT NULL DEFAULT 'f'
+)
